@@ -20,6 +20,7 @@ body{
   width: 100%;
   min-width: 350px;
   min-height: 100vh;
+  max-width: 960px;
 }
 
 .container-1{
@@ -65,14 +66,15 @@ body{
 
 .img{
   background-image: url(/photo1\ 5.50.46\ PM.png);
-  width: 90%;
-  height: 202px;
+  width: 80%;
+  padding: 20.61%;
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
   margin-left: 2rem;
   min-width: 350px;
+  max-width: 960px;
 }
 
 /* facts container */
@@ -81,8 +83,7 @@ body{
   display: flex;
   flex-direction: column;
   margin: 2em 0 2em 2em;
-
-
+  width: 90%;
 }
 .prep{
   /* display: flex;
@@ -166,9 +167,10 @@ body{
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 2.4em;
   line-height: 1.2em;
   color: #333333;
+  margin-top: 2em;
 }
 
 .ingredient-cont-p2, .cheesecake{
@@ -302,4 +304,52 @@ footer p{
   color: #A9A9A9;
   margin-top: 10px;
   margin-left: 20px;
+}
+
+@media(min-width: 810px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper-w{
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: auto;
+    width: 80%;
+  }
+  .container-1{
+    max-width: 530px;
+  }
+  .prep-cont{
+    width: 216px;
+    height: 367px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+    align-self: start;
+    justify-self: center;
+  }
+
+  .prep{
+    margin-bottom: 4em;
+  }
+  .facts{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+  }
+
+  .facts-cont{
+    margin-bottom: 4em;
+  }
+
+  .ingredient-cont{
+    grid-row: 1/2;
+  }
 }
