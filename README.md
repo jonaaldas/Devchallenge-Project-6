@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Receipt Page}</h1>
+<h1 align="center">Receipt Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -35,12 +35,8 @@
 
 ![screenshot](https://i.imgur.com/Z5MMDJI.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+Simple Receipt Page built with HTML and CSS.
+Used CSS Flexbox and Grid
 
 ### Built With
 
@@ -84,6 +80,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](jonathanaldas.com)
-- GitHub [@your-username](https://github.com/jonaaldas)
-- Twitter [@your-twitter](https://twitter.com/jonathanxcoder)
+- Website [Jonathan Aldas](jonathanaldas.com)
+- GitHub [@jonaaldas](https://github.com/jonaaldas)
+- Twitter [@jonathanxcoder](https://twitter.com/jonathanxcoder)
